@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dock-Mart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1>DOCK-MART</h1>
+      <div class="nav-links">
+        <p class="nav-link"><a href="index.html">Home</a></p>
+        <p class="nav-link"><a href="collection.html">Collections</a></p>
+        <p class="nav-link"><a href="contact.html">Contact Us</a></p>
+      </div>
+
+      <div class="navbar-menu-toggle" onclick="showNavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    <div class="side-navbar">
+      <p style="text-align: right">
+        <i class="fa-solid fa-xmark" onclick="closeNavbar()"></i>
+      </p>
+
+      <div class="side-nav-links">
+        <p class="side-nav-links"><a href="index.html">Home</a></p>
+        <p class="side-nav-links"><a href="collection.html">Collections</a></p>
+        <p class="side-nav-links"><a href="contact.html">Contact Us</a></p>
+      </div>
+    </div>
+
+    <!--products-->
+    <div class="product-section">
+      <form class="product-search">
+        <input type="text" id="search" placeholder="Search" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </form>
+
+      <div class="products" id="product">
+        <div class="product-box">
+          <img
+            src="collection/black and white checked shirt.webp"
+            alt="product" width="200"
+          />
+          <p>Black And White Checked Shirt</p>
+        </div>
+        <div class="product-box">
+            <img
+              src="collection/black denim.webp"
+              alt="product" width="200" height="245"
+            />
+            <p>Black Denim Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/blue shirt.jpg"
+              alt="product"width="200" height="245"
+            />
+            <p>Blue Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/yellow shirt.jpg"
+              alt="product"width="200" height="245"
+            />
+            <p>Yellow Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/white formal.jpg"
+              alt="product" width="200" height="245"
+            />
+            <p>White Formal Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/strip blue shirt.webp"
+              alt="product"width="200" height="245"
+            />
+            <p>Red striped Blue shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/kaki shirt.webp"
+              alt="product"width="200" height="245"
+            />
+            <p>Kaki Solid Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/green checked.jpg"
+              alt="product"width="200" height="245"
+            />
+            <p>Green Checked Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/light brown shirt.webp"
+              alt="product"width="200" height="245"
+            />
+            <p>Brown Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/maroon checked shirt.webp"
+              alt="product"width="200" height="245"
+            />
+            <p>Maroon Checked Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/kaki kargo shirt.webp"
+              alt="product"width="200" height="245"
+            />
+            <p>Kaki Cargo shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/checked green.webp"
+              alt="product"width="200" height="245"
+            />
+            <p>Green & Black Checked Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/brown denim.webp"
+              alt="product"width="200" height="245"
+            />
+            <p>Denim Brown Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/white.jpg"
+              alt="product"width="200" height="245"
+            />
+            <p>White ramond</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/white and brown.jpg"
+              alt="product"width="200" height="245"
+            />
+            <p>White shirt & Brown tousers</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/orange checked shirt.jpg"
+              alt="product"width="200" height="245"
+            />
+            <p>orange checked shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/maroon red shirt.jpg"
+              alt="product"width="200" height="245"
+            />
+            <p>Maroon Red Checked Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/red and black checked shirt.webp"width="200" height="245"
+              alt="product"
+            />
+            <p>Red and black Checked Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/dark brown shirt.jpg"
+              alt="product"width="200" height="245"
+            />
+            <p>Dark Brown Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/sky blue shirt.jpg"
+              alt="product"width="200" height="245"
+            />
+            <p>Sky Blue Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/black shirt.jpg"
+              alt="product"width="200" height="245"
+            />
+            <p>Black shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/black shirt beige phant.jpg"
+              alt="product"width="200" height="245"
+            />
+            <p>Black shirt & Beige Phant</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/blacked checked shirt.webp"
+              alt="product"width="200" height="245"
+            />
+            <p>Black Checked Shirt</p>
+          </div>
+          <div class="product-box">
+            <img
+              src="collection/brown shirt.jpg"
+              alt="product"width="200" height="245"
+            />
+            <p>Brown Shirt</p>
+          </div>
+      </div>
+      
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-box-1">
+          <h2 class="headingtext">Dock-Mart</h2>
+          <p>
+            Elevate your style with Dock Mart, your ultimate destination for
+            fashion. Discover trends, embrace elegance, and shop with confidenc
+          </p>
+          <div class="footer-icon-container">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+        </div>
+      </div>
+      <p>@ 2024 Dock-Mart.com</p>
+    </div>
+
+    <script src="collection.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
